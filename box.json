@@ -31,13 +31,13 @@
     "location":"ForgeboxStorage",
     "name":"CommandBox NPM",
     "private":false,
-    "projectURL":"",
+    "projectURL":"https://github.com/djcard/commandbox-npm",
     "reinitWatchDelay":500,
     "reinitWatchDirectory":"",
     "reinitWatchPaths":"",
     "repository":{
         "type":"git",
-        "URL":""
+        "URL":"https://github.com/djcard/commandbox-npm"
     },
     "scripts":{},
     "shortDescription":"A collection of tools to faciliate using the npm cli",
