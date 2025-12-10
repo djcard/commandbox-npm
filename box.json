@@ -1,0 +1,67 @@
+{
+    "author":"Dan Card",
+    "bugs":"",
+    "changelog":"",
+    "contributors":[],
+    "dependencies":{},
+    "description":"A collection of tools to faciliate using the npm cli ",
+    "devDependencies":{
+        "testbox":"be"
+    },
+    "documentation":"",
+    "homepage":"",
+    "ignore":[
+        "**/.*",
+        "/test/",
+        "/tests/",
+        "server.json",
+        "index.cfm"
+    ],
+    "installPaths":{
+        "testbox":"testbox/"
+    },
+    "instructions":"",
+    "keywords":[],
+    "license":[
+        {
+            "type":"",
+            "URL":""
+        }
+    ],
+    "location":"ForgeboxStorage",
+    "name":"CommandBox NPM",
+    "private":false,
+    "projectURL":"",
+    "reinitWatchDelay":500,
+    "reinitWatchDirectory":"",
+    "reinitWatchPaths":"",
+    "repository":{
+        "type":"git",
+        "URL":""
+    },
+    "scripts":{},
+    "shortDescription":"A collection of tools to faciliate using the npm cli",
+    "slug":"commandbox-npm",
+    "testbox":{
+        "bundles":"",
+        "directory":"tests.specs",
+        "excludes":"",
+        "labels":"",
+        "options":{},
+        "recurse":true,
+        "reporter":"",
+        "runner":[
+            {
+                "default":""
+            }
+        ],
+        "testBundles":"",
+        "testSpecs":"",
+        "testSuites":"",
+        "verbose":true,
+        "watchDelay":500,
+        "watchPaths":"**.cfc"
+    },
+    "type":"commandbox-modules",
+    "version":"0.0.1"
+}
