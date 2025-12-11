@@ -17,7 +17,7 @@ component {
                 var splitter = item.listFirst(" ");
                 print.line(splitter.listlen("@"));
                 retme=["this Folder->",
-                splitter.left(1)=="@" ? "@" & splitter.listFirst("@") :  splitter.listtFirst("@"),
+                splitter.left(1)=="@" ? "@" & splitter.listFirst("@") :  splitter.listFirst("@"),
                 splitter.listLast("@"),
                 expandpath(item.listLast(" "))
                 ]
@@ -26,7 +26,7 @@ component {
                 var splitter = item.listgetat(2," ");
                 retme=[
                     item.listGetAt(1," "),
-                    splitter.left(1)=="@" ? "@" & splitter.listFirst("@") :  splitter.listtFirst("@"),
+                    splitter.left(1)=="@" ? "@" & splitter.listFirst("@") :  splitter.listFirst("@"),
                     splitter.listLast("@"),
                     expandpath(getcwd() & "/" & item.listLast(" "))
                 ]

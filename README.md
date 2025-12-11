@@ -22,3 +22,7 @@ modules run 'npm link' in that directory. This will add the submitted package to
 ### npm unlinkTo
 
 Removes a symlink from the current project to a linked project keeping all other linked projects.
+
+## Changelog
+
+0.0.3 - Added Audit, Install and Start, Fixed Typos.
