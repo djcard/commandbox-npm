@@ -1,6 +1,6 @@
 /**
  * 
- * Installs a package or a project's dependencies using npm.
+ * Runs the audit command with the optional flag 'fix'
  * 
  * 
  * 

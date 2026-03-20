@@ -8,9 +8,9 @@
  * {code}
  */
 
-component {
-    function run(){
+ component {
+    function run(required string scriptName){
         //var currentFolder = getcwd();
-        command("!npm run start").run();
+        command("!npm run #scriptName#").run();
     }
 }
